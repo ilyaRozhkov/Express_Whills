@@ -1,0 +1,20 @@
+$var1: #282C2D;
+$var2: #3A3D3E;
+
+.budgets_items {
+	display: flex;
+	&_item {
+		flex-direction: column;
+		margin: 0 10px 10px;
+		background-color: $var1;
+		border-radius: 3%;
+	}
+}
+button {
+	background-color: $var2;
+	border: 1px solid white;
+	margin: 10px;
+	&:hover {
+		border: 1px solid $var2;
+	}
+}
